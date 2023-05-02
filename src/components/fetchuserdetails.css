@@ -1,0 +1,36 @@
+.parent{
+   
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+} 
+li{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+/* .child{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+} */ 
+.child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: darkturquoise;
+    height: 400px;
+    width: 600px;
+}
+.image{
+    display: flex;
+    border-radius: 55px;
+   
+}
+button{
+    width: 100px;
+}
